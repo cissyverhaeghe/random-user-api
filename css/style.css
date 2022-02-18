@@ -1,0 +1,36 @@
+html {
+  background-color: rgb(228, 180, 228);
+}
+
+h1,
+h2 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+form {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.columns {
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.card-image h2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 30;
+  background-color: rgba(0, 0, 0, 0.116);
+  z-index: 1;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+
+.is-3by4 img {
+  object-fit: cover;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script defer src="./js/index.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">People finder</h1>
+      <h2 class="subtitle">Find your people</h2>
+      <form id="myForm" action="">
+        <div class="control">
+          <input
+            class="input"
+            id="zoekString"
+            type="text"
+            placeholder="Type here"
+          />
+        </div>
+      </form>
+      <div class="columns is-multiline">
+        <template>
+          <div class="column">
+            <div class="card">
+              <div class="card-image">
+                <h2>%naam%</h2>
+                <figure class="image is-3by4">
+                  <img src="%image%" alt="%naam%" />
+                </figure>
+              </div>
+            </div>
+          </div>
+        </template>
+      </div>
+    </div>
+  </body>
+</html>
