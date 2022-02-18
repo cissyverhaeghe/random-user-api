@@ -18,19 +18,16 @@ form {
   justify-content: center;
 }
 
-.card-image h2 {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 30;
-  background-color: rgba(0, 0, 0, 0.116);
-  z-index: 1;
-  width: 100%;
-  color: white;
-  font-weight: bold;
-  padding: 0.5rem;
+.card {
+  background-color: rgb(253, 222, 240);
 }
 
-.is-3by4 img {
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 500ms ease;
+}
+
+img {
   object-fit: cover;
 }
