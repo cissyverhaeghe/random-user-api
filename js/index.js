@@ -33,7 +33,7 @@ async function render(data, zoekStr = "") {
           <div class="card-image">
             <figure class="image is-1by1">
               <img
-                src="${Person.picture.thumbnail}"
+                src="${Person.picture.large}"
                 alt="${Person.name.first} ${Person.name.last}"
               />
             </figure>
